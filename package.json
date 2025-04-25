@@ -17,6 +17,10 @@
   "author": "Chrono Clash Team",
   "license": "MIT",
   "dependencies": {
+    "@arweave-wallet-kit/core": "^0.1.1",
+    "@arweave-wallet-kit/react": "^0.3.2",
+    "@arweave-wallet-kit/styles": "^0.1.1",
+    "@arweave-wallet-kit/wander-strategy": "^0.1.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.1",
     "express": "^4.18.2",
