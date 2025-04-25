@@ -1,0 +1,31 @@
+{
+  "name": "chrono-clash-server",
+  "version": "1.0.0",
+  "description": "Backend server for Chrono Clash multiplayer game",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "game",
+    "multiplayer",
+    "socket.io",
+    "chrono-clash"
+  ],
+  "author": "Chrono Clash Team",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.3",
+    "supertest": "^6.3.4"
+  }
+}
